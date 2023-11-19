@@ -1,0 +1,39 @@
+{
+  "name": "apicraft-backend",
+  "version": "1.0.0",
+  "description": "Backend for APICraft - An API Documentation Generator and Simulator",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "api",
+    "documentation",
+    "generator",
+    "simulator",
+    "express",
+    "nodejs",
+    "swagger",
+    "rapid",
+    "crafting"
+  ],
+  "author": "Sandip.kalsait",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "https": "^1.0.0",
+    "moment": "^2.29.4",
+    "soap": "^1.0.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-parser": "^10.0.3",
+    "swagger-ui-express": "^5.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
+  }
+}
